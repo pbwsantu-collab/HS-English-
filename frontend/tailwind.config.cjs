@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         royal: {
           DEFAULT: '#0b3d91',
-          600: '#083178',n
+          600: '#083178',
           700: '#06245e'
         },
         gold: {
