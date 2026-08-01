@@ -1,0 +1,10 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "echo \"No backend build yet\"",
+    "start": "echo \"No backend start yet\"",
+    "lint": "echo \"No backend lint configured yet\""
+  }
+}

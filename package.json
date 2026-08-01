@@ -1,0 +1,16 @@
+{
+  "name": "englishmaster-ai",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "bootstrap": "npm install",
+    "build": "npm -w frontend run build && npm -w backend run build",
+    "lint": "echo \"No workspace lint configured yet\"",
+    "test": "echo \"No tests configured yet\""
+  }
+}

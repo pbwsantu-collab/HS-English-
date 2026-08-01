@@ -1,0 +1,10 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "echo \"No frontend build yet\"",
+    "dev": "echo \"No frontend dev yet\"",
+    "lint": "echo \"No frontend lint configured yet\""
+  }
+}
