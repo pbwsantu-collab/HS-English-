@@ -1,10 +1,33 @@
 {
   "name": "backend",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "build": "echo \"No backend build yet\"",
-    "start": "echo \"No backend start yet\"",
-    "lint": "echo \"No backend lint configured yet\""
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint --ext .ts src || true"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pino": "^8.16.0",
+    "pino-http": "^8.1.0",
+    "pg": "^8.11.0",
+    "zod": "^4.25.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.5.1",
+    "eslint": "^8.46.0"
   }
 }
