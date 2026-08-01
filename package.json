@@ -11,6 +11,7 @@
     "bootstrap": "npm install",
     "build": "npm -w frontend run build && npm -w backend run build",
     "lint": "echo \"No workspace lint configured yet\"",
-    "test": "echo \"No tests configured yet\""
+    "test": "echo \"No tests configured yet\"",
+    "deploy:pages": "bash ./scripts/deploy-pages.sh main"
   }
 }
