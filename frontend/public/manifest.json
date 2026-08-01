@@ -3,17 +3,18 @@
   "name": "EnglishMaster AI",
   "icons": [
     {
-      "src": "/icons/logo-192.png",
+      "src": "/HS-English-/icons/logo-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/logo-512.png",
+      "src": "/HS-English-/icons/logo-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/HS-English-/",
+  "scope": "/HS-English-/",
   "display": "standalone",
   "theme_color": "#0b3d91",
   "background_color": "#ffffff"
