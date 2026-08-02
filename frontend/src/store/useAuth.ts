@@ -1,12 +1,12 @@
-import create from 'zustand';
-import { User } from '../types';
+import { create } from 'zustand';
+import type { User } from '../types';
 
 type AuthState = {
   user: User | null;
   setUser: (u: User | null) => void;
 };
 
-export const useAuthStore = create<AuthState>(set => ({
+export const useAuthStore = create<AuthState>((set) => ({
   user: null,
-  setUser: user => set({ user })
+  setUser: (user) => set({ user })
 }));
